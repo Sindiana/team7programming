@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Kimna
+ * @author ASUS
  */
 public class Mahasiswa extends javax.swing.JFrame {
 
