@@ -28,7 +28,7 @@ public class konfig {
        String user = "root";
        String pass = "";
        
-       DriverManager.registerDriver(new com.mysql.jdbc.Driver());
+       DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
        MySQLConfig = DriverManager.getConnection(url,user,pass);
        }catch(SQLException e){
            System.out.println("Koneksi Ke Database Gagal " + e.getMessage());
